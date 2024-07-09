@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Feedback Form</title>
+</head>
+
+<body>
+    <h1>Employee Feedback Form</h1>
+    <form action="/submit_feedback" method="post">
+        <!-- Feedback Description -->
+        <label for="feedback">Enter your feedback:</label>
+        <textarea id="feedback" name="feedback" cols="55" rows="10" placeholder="Enter your feedback here"></textarea>
+        <br><br>
+        
+        <!-- Employee Information -->
+        <label for="employee1">Employee Name:</label>
+        <input type="text" name="employee1" id="employee1" value="Hassan" readonly>
+        <br><br>
+        
+        <label for="employee2">Supervisor Name:</label>
+        <input type="text" name="employee2" id="employee2" value="Sufyan" readonly>
+        <br><br>
+
+        <!-- Candidate Selection -->
+        <label for="candidate">Select the candidate for the review:</label>
+        <select name="candidate" id="candidate">
+            <option value="hassan">Hassan</option>
+            <option value="sufyan">Sufyan</option>
+            <option value="anas" selected>Anas</option>
+        </select>
+        <br><br>
+        
+        <!-- Search Input -->
+        <label for="search">Search for an employee:</label>
+        <input type="search" id="search" name="search" placeholder="Search by name">
+        <br><br>
+        
+        <!-- Submit Button -->
+        <input type="submit" value="Submit Feedback">
+    </form>
+</body>
+
+</html>

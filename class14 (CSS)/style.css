@@ -1,0 +1,118 @@
+/* Reset some basic elements */
+body, h1, h2, h3, p, ul, li, form, input, textarea, button {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+
+/* Header styles */
+header {
+    background-color: #8B4513; /* Set background color to SaddleBrown */
+    color: white; /* Set text color to white */
+    text-align: center; /* Center-align the text */
+    padding: 1em 0; /* Add padding to top and bottom */
+}
+
+/* Navigation styles */
+nav {
+    background-color: #D2B48C; /* Set background color to Tan */
+    text-align: center; /* Center-align the text */
+    padding: 0.5em 0; /* Add padding to top and bottom */
+}
+
+
+
+nav li {
+    margin: 0 1em; /* Add margin to left and right */
+}
+
+nav a {
+    color: #333; /* Set link color to dark grey */
+}
+
+nav a:hover {
+    color: #8B4513; /* Change link color to SaddleBrown on hover */
+}
+
+/* Section styles */
+.section {
+    padding: 2em 1em; /* Add padding to top/bottom and left/right */
+}
+
+#home {
+    background-color: #F5F5DC; /* Set background color to Beige */
+}
+
+#menu {
+    background-color: #FFF8DC; /* Set background color to Cornsilk */
+}
+
+#contact {
+    background-color: #F5DEB3; /* Set background color to Wheat */
+}
+
+/* Menu item styles */
+.menu-item {
+    background: white; /* Set background color to white */
+    border: 1px solid #ccc; /* Add a light grey border */
+    margin: 1em 0; /* Add margin to top and bottom */
+    padding: 1em; /* Add padding inside the element */
+    border-radius: 10px; /* Round the corners of the border */
+}
+
+.menu-item h3 {
+    margin-bottom: 0.5em; /* Add margin to bottom */
+}
+
+.menu-item span {
+    margin-top: 0.5em; /* Add margin to top */
+    font-weight: bold; /* Make text bold */
+    color: #8B4513; /* Set text color to SaddleBrown */
+}
+
+
+label {
+    margin: 0.5em 0 0.2em; /* Add margin to top and bottom */
+}
+
+input, textarea {
+    padding: 0.5em; /* Add padding inside the element */
+    margin-bottom: 1em; /* Add margin to bottom */
+    border: 1px solid #ccc; /* Add a light grey border */
+    border-radius: 5px; /* Round the corners of the border */
+    width: 92vw;
+}
+
+button {
+    background-color: #8B4513; /* Set background color to SaddleBrown */
+    color: white; /* Set text color to white */
+    padding: 0.5em; /* Add padding inside the element */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Round the corners of the border */
+}
+
+button:hover {
+    background-color: #5A2D0C; /* Change background color on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #D2B48C; /* Set background color to Tan */
+    color: #333; /* Set text color to dark grey */
+    text-align: center; /* Center-align the text */
+    padding: 1em 0; /* Add padding to top and bottom */
+    margin-top: 2em; /* Add margin to top */
+}
+
+
+
+/* 
+to style multiple elements
+selector, selector{}
+
+
+parent-selector child-selector {
+
+}
+*/

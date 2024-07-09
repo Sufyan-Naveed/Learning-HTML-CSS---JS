@@ -1,0 +1,50 @@
+body {
+    background: #000000;
+    color: #fff;
+    box-sizing: border-box; /* new property */
+}
+
+.service_heading {
+    text-align: center;
+    color: #FFD43B;
+    font-size: 30px;
+}
+
+main {
+    max-width: 800px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.red {
+    width: 100%;
+    display: flex; /* dummy property */
+    flex-wrap: wrap; /* dummy property */
+    
+}
+
+.green {
+    padding: 20px 15px;
+    margin: 15px auto;
+    min-width: 320px;
+    width: min-content;
+    border-radius: 10px;
+    background-color: #262626 !important;
+
+}
+.head{
+    display: flex; /* dummy property */
+    justify-content: center; /* dummy property */
+    align-items: center; /* dummy property */
+    margin-bottom: 0px;
+}
+.service_name{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+p{
+    color: rgb(199, 197, 197);
+    font-weight: 500; /* new property */
+}
+/* 262626 */

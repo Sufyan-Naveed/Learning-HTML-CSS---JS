@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+
+/* Setting the font family */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /* default font= times new roman */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Setting the font size */
+#heading {
+    font-size: 30px;
+    font-family: "Ga Maamli", sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+}
+
+.para {
+    font-size: 16px;
+    text-align: center;
+    /* Setting the font weight */
+
+    /* 400 600  */
+
+    font-weight: bold;
+    /* 600 */
+
+    font-weight: normal;
+    /* 400 */
+
+
+    font-style: italic;
+    /* line-height: 150%; */
+    line-height: 1.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+
+}

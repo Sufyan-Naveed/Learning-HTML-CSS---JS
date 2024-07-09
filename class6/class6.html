@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form>
+
+        <!-- Name input -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <hr>
+
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <hr>
+
+        <!-- Favorite color picker -->
+        <label for="favcolor">Favorite Color:</label>
+        <input type="color" id="favcolor" name="favcolor" value="#0000ff">
+        <hr>
+
+        <!-- Date of birth picker -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        <hr>
+
+        <!-- Age input -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="100">
+        <hr>
+
+        <!-- Profile picture upload -->
+        <label for="profilepic">Profile Picture:</label>
+        <input type="file" id="profilepic" name="profilepic" accept="image/*">
+        <hr>
+
+        <!-- Submit button as an image -->
+        <input type="image" src="https://media.wired.com/photos/5927284ff3e2356fd800b9b4/191:100/w_1200,h_630,c_limit/03_CHIRON_34-front_WEB.jpg" alt="Submit" width="70" height="50">
+        <hr>
+
+        <!-- Range input for rating -->
+        <label for="rating">Rate our service:</label>
+        <input type="range" id="rating" name="rating" min="1" max="5">
+        <hr>
+
+        <!-- Reset form button -->
+        <input type="reset" value="Reset Form">
+        <hr>
+
+        <!-- Search input -->
+        <label  for="search">Search:</label>
+        <input type="search" id="search" name="search" placeholder="Search our site" required>
+        <hr>
+
+        <!-- Phone number input -->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="^\+?\d{0,13}" placeholder="Enter your phone number" required>
+        <hr>
+
+        <!-- URL input for website -->
+        <label for="website">Website:</label>
+        <input type="url" id="website" name="website" placeholder="Enter your website URL">
+        <hr>
+
+        <!-- Education section -->
+        <h2>Education</h2>
+
+        <label for="subjects">Which subjects do you want to study?</label>
+        <br>
+        <label for="comp">Computer Science</label>
+        <input type="checkbox" id="comp" name="subject" value="computer science">
+        <br>
+        <label for="chem">Chemistry</label>
+        <input  type="checkbox" id="chem" name="subject" value="chemistry">
+        <br>
+        <label for="math">Mathematics</label>
+        <input type="checkbox" id="math" name="subject" value="mathematics">
+        <hr>
+
+        <!-- Gender section -->
+        <h2>Gender</h2>
+        <label for="gender">What is your gender?</label>
+        <br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <hr>
+
+    </form>
+
+</body>
+
+</html>
