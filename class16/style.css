@@ -42,3 +42,7 @@ img{
     width: 90%;
     border-radius: 8px;
 }
+.intro{
+    margin-top: 20px;
+    text-align: justify;
+}
