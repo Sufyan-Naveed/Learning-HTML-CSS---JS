@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    border: 1px solid black;
+}
+.item {
+    padding: 10px 0;
+    border: 1px solid red;
+}
+.item1 {
+    flex-grow: 1;
+    flex-shrink: 1;
+   
+    }
+.item2 {
+    flex-grow: 1;
+    flex-shrink: 2; 
+    
+}
