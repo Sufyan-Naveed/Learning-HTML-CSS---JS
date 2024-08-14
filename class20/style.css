@@ -1,0 +1,42 @@
+        body {
+            background-image: url('./bg.jpg');
+            /* Replace with a real background image URL */
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            color: white;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            row-gap: 10px;
+            /* Gap between rows */
+            column-gap: 15px;
+            /* Gap between columns */
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .item {
+            background-color: white;
+        }
+
+        .item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .grow-col-2 {
+            grid-column: span 2;
+        }
+
+        .grow-row-2 {
+            grid-row: span 2;
+        }

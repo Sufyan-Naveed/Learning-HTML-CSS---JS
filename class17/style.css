@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 /* Reset some basic styles */
 body, h1, h2, p, form, input, textarea, button {
     margin: 0;
@@ -14,7 +18,8 @@ body {
 
 /* Header styling */
 .header {
-    display: flex; /* Flex container */
+    display: flex;
+     /* Flex container */
     justify-content: space-between; /* Space between logo and nav */
     align-items: center; /* Center items vertically */
     background-color: #333;
@@ -24,6 +29,7 @@ body {
 
 .header .logo {
     font-size: 24px;
+    color: bisque;
     font-weight: bold;
 }
 
@@ -35,6 +41,7 @@ body {
 
 /* Introduction section styling */
 .intro {
+    background-color: azure;
     padding: 60px 20px;
     text-align: center;
 }
@@ -50,9 +57,9 @@ body {
 
 /* Hero section styling */
 .hero {
-    display: flex; /* Flex container */
-    justify-content: center; /* Center the items horizontally */
-    align-items: center; /* Center items vertically */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
     padding: 60px 20px;
     background-color: #f4f4f4;
 }
@@ -115,8 +122,8 @@ body {
 }
 
 .contact form {
-    display: flex; /* Flex container */
-    flex-direction: column; /* Column direction */
+    display: flex; 
+    flex-direction: column;
     max-width: 500px;
     margin: 0 auto;
 }
